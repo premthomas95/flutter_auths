@@ -27,7 +27,6 @@ showErrDialog(BuildContext context, String err) {
   );
 }
 
-// many unhandled google error exist
 // will push them soon
 Future<bool> googleSignIn() async {
   GoogleSignInAccount googleSignInAccount = await gooleSignIn.signIn();
@@ -82,10 +81,7 @@ Future<FirebaseUser> signin(
         showErrDialog(context, e.code);
         break;
     }
-    // since we are not actually continuing after displaying errors
-    // the false value will not be returned
-    // hence we don't have to check the valur returned in from the signin function
-    // whenever we call it anywhere
+
     return Future.value(null);
   }
 }

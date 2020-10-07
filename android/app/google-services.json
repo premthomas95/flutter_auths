@@ -1,43 +1,50 @@
 {
   "project_info": {
-    "project_number": "819896397414",
-    "firebase_url": "https://authentications-349e3.firebaseio.com",
-    "project_id": "authentications-349e3",
-    "storage_bucket": "authentications-349e3.appspot.com"
+    "project_number": "645263960801",
+    "firebase_url": "https://eyespy-771ae.firebaseio.com",
+    "project_id": "eyespy-771ae",
+    "storage_bucket": "eyespy-771ae.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:819896397414:android:656b1b8fa8ff639f2ac7a7",
+        "mobilesdk_app_id": "1:645263960801:android:325b2bf4d5757ba22825a0",
         "android_client_info": {
-          "package_name": "com.example.flutter_auths"
+          "package_name": "com.example.service_spy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "819896397414-fcs1lpsg5447g5rdee117nk4t4dgcd43.apps.googleusercontent.com",
+          "client_id": "645263960801-13p49k06mcvudsstji3pdojck96c6tci.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.flutter_auths",
-            "certificate_hash": "328427a50ee29dea164ba8a5f3c725031adb9ab0"
+            "package_name": "com.example.service_spy",
+            "certificate_hash": "ea04b63918b0f4408306c3d830755c409d6411fe"
           }
         },
         {
-          "client_id": "819896397414-j3f6mlbqvkvqg81acnus8vf5fqi3dq2p.apps.googleusercontent.com",
+          "client_id": "645263960801-rj558n0t9euhhnuustdkuhf1e4epq4kg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDWd4Z6u7IfxcxKWl3Lf39eDx7beaU-9VM"
+          "current_key": "AIzaSyBXiHjvhgXOdYXbmh7WO--zfqAvQXciGIY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "819896397414-j3f6mlbqvkvqg81acnus8vf5fqi3dq2p.apps.googleusercontent.com",
+              "client_id": "645263960801-rj558n0t9euhhnuustdkuhf1e4epq4kg.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "645263960801-o67n25vjafa3n87qj4a4a9829a01m5in.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.serviceSpy"
+              }
             }
           ]
         }
